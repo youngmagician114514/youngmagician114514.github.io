@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  {% load static %}
+  <meta charset="utf-8">
+  <title>HTML Category 卫衣 | Wakaba Shop</title>
+  <meta name="keywords" content="给原神玩家的礼物，卫衣，genshin">
+  <meta name="description" content="装饰着元素的7种类别，简单又可爱的卫衣。">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="{% static 'css/common.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/lightbox.css' %}">
+</head>
+
+<body>
+  <header id="itempage">
+    <nav>
+      <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="form.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>    
+      <div class="row">
+        <div class="col harf">
+          <img src="{% static "images/item02.jpg"%}" alt="HTML Category 卫衣">
+        </div>
+        <div class="col harf">
+          <h1>原石cos服</h1>
+          <p>穿在路上也许有人会下跪的衣服。<br>
+          「风 、草、水...还有什么来着？」说不定什么时候就起作用了呢？
+          </p>
+            <div class="cartarea">
+              <p>
+                <span class="price">3,980</span>原石（含税）
+              </p>
+              <a class="button" href="https://space.bilibili.com/1613930129?spm_id_from=333.1007.0.0" target="_blank">售卖页面</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col quarter">
+          <a href="{%static 'images/item02_sub1.jpg'%}" data-lightbox="detail" data-title="面料超级厚实">
+          <img src="{%static 'images/item02_sub1.jpg' %}" alt="卫衣">
+          </a>
+        </div>
+        <div class="col quarter">
+          <a href="{%static 'images/item02_sub2.jpg'%}" data-lightbox="detail" data-title="还有另一种形态">
+          <img src="{%static 'images/item02_sub2.jpg'%}" alt="卫衣">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; Wakaba shop</p>
+  </footer>
+  <script src="{%static 'js/lightbox.js'%}"></script>
+</body>
+</html>

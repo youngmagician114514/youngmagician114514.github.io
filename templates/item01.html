@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  {% load static %}
+  <script type="text/javascript">
+  <!--
+    alert("test");
+  -->
+  </script>
+  <meta charset="utf-8">
+  <title>HTML Strong T恤 | Wakaba Shop</title>
+  <meta name="keywords" content="HTML，编程T恤，Web设计，礼物">
+  <meta name="description" content="强调对HTML热爱的编程T恤。推荐作为礼物送给做Web设计师的朋友！">
+  <link rel="stylesheet" href="{% static 'css/common.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+  <header id="itempage">
+    <nav>
+      <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="form.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+      <div class="row">
+        <div class="col harf">
+          <img src="{% static "images/item01.jpg"%}" alt="空月祝福">
+        </div>
+        <div class="col harf">
+          <h1>空月祝福</h1>
+          <p>于新月初升之时，向天空之月祈求财富与好运的仪式；你完全可以认为这是提瓦特的第一轮新月，至少是你见到的第一轮。<br>购买空月祝福后，每天首次进入游戏将会发放90原石。每次购买空月祝福，可立即获得300创世结晶与为期30天的空月祝福生效时间。空月祝福生效期间如因未登录而未领取的原石，将不会返还。</p>
+          <div class="cartarea">
+            <p>
+              <span class="price">2,980</span>原石（含税）
+            </p>
+            <a class="button" href="https://space.bilibili.com/1613930129?spm_id_from=333.1007.0.0" target="_blank">售卖页面</a>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; Wakaba shop</p>
+  </footer>
+
+</body>
+</html>
